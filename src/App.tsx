@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import 'font-awesome/css/font-awesome.min.css';
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import TaskListPage from "./views/TaskListPage";
 import LoginPage from "./views/LoginPage";

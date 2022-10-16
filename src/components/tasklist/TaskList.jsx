@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
-import {Button, Card, Modal, Table} from "react-bootstrap";
+import React from 'react';
+import {Button, Table} from "react-bootstrap";
 
 const TaskList = () => {
-    const [showEditModal, setShowEditModal] = useState(false);
 
     const tasks = [{
         id: "94djuehiry985G7UUpyL",
@@ -55,7 +54,7 @@ const TaskList = () => {
 
                     <td>
                         <Button
-                            className="fa fa-pencil btn btn-success pointer ml-2"
+                            className="fa fa-pencil btn btn-success pointer me-2"
                             // onClick={() => editUser(task)}
                         >
                             {" "}
