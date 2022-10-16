@@ -15,7 +15,7 @@ const Header = () => {
         }
     }, [currentUser]);
     return (
-        <Navbar className="color-nav" variant="light"expand="lg" >
+        <Navbar className="custom-nav" variant="light"expand="lg" >
             <div className="container">
                 <Navbar.Brand href="/">
                     Welcome to Board <b>{userData.user.displayName}</b>

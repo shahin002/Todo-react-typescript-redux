@@ -11,7 +11,7 @@ const AddTask = () => {
 
     return (
         <>
-            <div className="float-right mb-3">
+            <div className="mb-3 text-end">
                 <button className="btn btn-success" onClick={() => setShow(true)}>
                     + Add Task
                 </button>
